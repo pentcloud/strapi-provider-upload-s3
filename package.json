@@ -1,0 +1,35 @@
+{
+  "name": "@pentcloud/strapi-provider-upload-s3",
+  "version": "1.0.0",
+  "description": "AWS S3 provider for strapi upload",
+  "main": "./lib",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pentcloud/strapi-provider-upload-s3.git"
+  },
+  "keywords": [
+    "upload",
+    "aws",
+    "s3",
+    "strapi"
+  ],
+  "dependencies": {
+    "aws-sdk": "2.892.0",
+    "lodash": "4.17.21"
+  },
+  "strapi": {
+    "isProvider": true
+  },
+  "author": "William Chanchavac",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pentcloud/strapi-provider-upload-s3/issues"
+  },
+  "homepage": "https://github.com/pentcloud/strapi-provider-upload-s3#readme"
+}
